@@ -61,7 +61,7 @@ const defaultTheme = {
 theme.set(defaultTheme);
 
 console.log(theme.get()); // will log an object equals to `defaultTheme`
-console.log(theme.getValue('colors', 'primary')); // will log #000
+console.log(theme.getValue('color', 'primary')); // will log #000
 ```
 
 Once you have a centralized theme, you need to parse this theme to generate the style for your components an layouts, here is where the `parsers` handler start to play!
